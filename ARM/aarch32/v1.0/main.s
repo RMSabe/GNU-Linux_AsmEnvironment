@@ -43,7 +43,6 @@ _end:
 _main:
 @Add main routine here
 
-	b _teststart
 	b _end
 
 .section .data
@@ -68,7 +67,4 @@ _textbuf:
 _startstr: .asciz "Started\n"
 _endstr: .asciz "Terminated\n"
 
-.align 4
-
-.include "tests/test01.s"
 
